@@ -1,0 +1,70 @@
+# Angular specific
+/dist
+/tmp
+/out-tsc
+/bazel-out
+.angular/
+
+# TRAE
+.editorconfig
+
+# Node
+/node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Compiled output
+*.js.map
+*.css.map
+*.js
+!karma.conf.js
+!protractor.conf.js
+
+# Misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Environment Files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build and Cache
+.cache/
+build/
+.temp/
+.tmp/
+
+# Package Manager
+package-lock.json
+yarn.lock
+.pnpm-lock.yaml
+
+# Testing
+/coverage
+/.nyc_output
